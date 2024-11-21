@@ -1,0 +1,176 @@
+body{
+    background-image:linear-gradient(to right,chocolate,rgb(58, 13, 13));
+    margin:0;  
+    display:flex;
+    justify-content:center ;
+    height:1000px;
+
+    
+    
+  }
+  *{
+      box-sizing: border-box;
+      margin:0;
+      padding:0;
+  }
+  
+section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size:20px;
+    font-family:serif;
+    text-align: center;
+    gap:20px;
+
+}
+section div{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+}
+section h1{
+    font-size:50px;
+    font-family:serif;
+
+}
+div p{
+    margin-top:-50px;
+}
+input[type="text"]{
+    margin-top: 30px;
+    border-radius:10px;
+    background-color:transparent;
+    padding:20px;
+    border:1px solid chocolate;
+    width:400px;
+}
+input[type="password"],input[type="email"]{
+    border-radius:10px;
+    background-color:transparent;
+    padding:20px;
+    border:1px solid chocolate;
+    width:400px;
+}
+input::placeholder{
+    color:white;
+}
+input[type="email"],input[type="password"],input[type="text"]:focus{
+outline:none;
+}
+input[type="submit"]{
+    background-color:rgb(58, 13, 13);
+    color:white;
+    padding:20px;
+    font-size:20px;
+    font-family:serif;
+    width:400px;
+    border-radius:10px;
+    border:1px solid rgb(58, 13, 13);
+}
+button{
+    width:400px;
+    padding:20px;
+    background-color:chocolate;
+    border-radius:10px;
+    border:1px solid chocolate;
+
+}
+button a{
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+    font-family:serif;
+}
+
+@media(max-width:450px){
+    body{
+        background-image:linear-gradient(to right,chocolate,rgb(58, 13, 13));
+        margin:0;  
+        display:flex;
+        justify-content:center ;
+        height:1000px;
+    
+        
+        
+      }
+      *{
+          box-sizing: border-box;
+          margin:0;
+          padding:0;
+      }
+      
+    section{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color:white;
+        font-size:20px;
+        font-family:serif;
+        text-align: center;
+        gap:20px;
+    
+    }
+    section div{
+        display:flex;
+        flex-direction:column;
+        gap:50px;
+    }
+    section h1{
+        font-size:50px;
+        font-family:serif;
+    
+    }
+    div p{
+        margin-top:-50px;
+    }
+    input[type="text"]{
+        margin-top: 30px;
+        border-radius:10px;
+        background-color:transparent;
+        padding:20px;
+        border:1px solid chocolate;
+        width:300px;
+    }
+    input[type="password"],input[type="email"]{
+        border-radius:10px;
+        background-color:transparent;
+        padding:20px;
+        border:1px solid chocolate;
+        width:300px;
+    }
+    input::placeholder{
+        color:white;
+    }
+    input[type="email"],input[type="password"],input[type="text"]:focus{
+    outline:none;
+    }
+    input[type="submit"]{
+        background-color:rgb(58, 13, 13);
+        color:white;
+        padding:20px;
+        font-size:20px;
+        font-family:serif;
+        width:300px;
+        border-radius:10px;
+        border:1px solid rgb(58, 13, 13);
+    }
+    button{
+        width:300px;
+        padding:20px;
+        background-color:chocolate;
+        border-radius:10px;
+        border:1px solid chocolate;
+    
+    }
+    button a{
+        color:white;
+        text-decoration: none;
+        font-size:20px;
+        font-family:serif;
+    }
+    
+}
